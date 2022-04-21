@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin :0 ;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+header {
+    min-height: 100vh; 
+    background-image: linear-gradient(to right, #00b4db, #0083b0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 100px;
+    color:#fff ;
+}
+header h1 {
+    color:#fff ;
+    font-size: 3em;
+    padding:1em 0;
+}
+button {
+    cursor: pointer;
+}
+.btn {
+    padding:0.75em ;
+    width:150px;
+    font-size: large;
+    font-weight: bold;
+    background: transparent;
+    color:#fff;
+    border:3px solid #fff ;
+    border-radius: 5px;
+}
+.btn a {
+    text-decoration: none;
+    color: inherit;
+}
+.custom-shape-divider-bottom-1650500182 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1650500182 svg {
+    position: relative;
+    display: block;
+    width: calc(122% + 1.3px);
+    height: 186px;
+}
+
+.custom-shape-divider-bottom-1650500182 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/*main section */
+main {
+    padding:2em ;
+    min-height: 50vh;
+    position:relative ;
+}
+main h2 {
+    text-align: center;
+    padding:1em ;
+    color:#0b7f99
+}
+main p {
+    width:90% ;
+    margin :0 auto ;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: auto;
+}
+main div {
+    text-align: center;
+    margin-top:1em
+}
+main div button {
+    padding:0.75em ;
+    margin:10px ;
+    border-radius: 5px;
+    background:#0b7f99 ;
+    color:#fff ;
+    font-weight: bold;
+}
